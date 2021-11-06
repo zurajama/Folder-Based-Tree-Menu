@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+#treemenu {
+	display:inline-block;
+	margin:0;
+	padding:0;
+	float:left;
+	}	
+#treemenu ul {
+	margin:0;
+	padding:0;	
+	}
+#treemenu ul li {
+	margin:0px 5px 0px 7px;
+	list-style:none;
+	font-size:12px;	
+	}
+#treemenu ul li a {
+	text-decoration:none;
+	color:#555;
+	}
+#treemenu ul li a img {
+	border:0;
+	vertical-align:middle;
+	}
+#treemenu ul li a:hover {
+	text-decoration:underline;	
+	}
+.treemenuselected {
+	color:#F00;
+	}
